@@ -15,21 +15,11 @@ const eslintConfig = [
   {
     plugins: {
       'simple-import-sort': simpleImportSort,
-      prettier: 'eslint-plugin-prettier', // Adiciona o plugin do Prettier
     },
     rules: {
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
-      'prettier/prettier': [
-        'error',
-        {
-          plugins: ['prettier-plugin-tailwindcss'], // Adiciona o plugin do Tailwind CSS
-        },
-      ],
     },
-  },
-  {
-    extends: ['plugin:prettier/recommended'], // Adiciona a configuração do Prettier
   },
 ];
 
