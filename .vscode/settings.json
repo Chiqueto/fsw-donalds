@@ -12,5 +12,8 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-  }
+  },
+  "editor.formatOnSave": true, // Habilita a formatação ao salvar
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Define o Prettier como formatador padrão
+  "prettier.requireConfig": true // Exige um arquivo de configuração do Prettier
 }
