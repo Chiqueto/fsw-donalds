@@ -19,7 +19,7 @@ const RestaurantHeader = ({ restaurant }: RestaurantHeaderProps) => {
 
     return (
         <div className="relative h-[250px] w-full">
-            <Button size="icon" variant={"secondary"} className="absolute top-4 left-4 z-50 rounded-full" onClick={handleBackClick}>
+            <Button size="icon" variant={"secondary"} className="absolute top-4 left-4 z-50 rounded-full" onClick={handleBackClick} asChild>
                 <ChevronLeftIcon />
             </Button>
             <Button size="icon" variant={"secondary"} className="absolute top-4 right-4 z-50 rounded-full">
